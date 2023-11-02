@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Web</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/4ead19ef99.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- <a href="#" class="mainWebsite">Back to main websitet</a> -->
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu();">About</a></li>
+          <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+          <li><a href="#project" onclick="toggleMenu();">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="topbar">
+          <a href="" class="logo">Portfolio</a>
+          <div class="toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+
+        <!-- banner -->
+        <section class="banner" id="banner">
+          <div class="content">
+            <div class="imgBx">
+              <img src="img/img1.jpg" alt="" />
+            </div>
+            <h3>Ryan Febry</h3>
+            <p>I'm a Full Stack Web Developer.</p>
+            <a href="#" download="" class="btn">Download My CV</a>
+          </div>
+        </section>
+
+        <!-- About -->
+        <section class="about adjust" id="about">
+          <div class="title">
+            <h2>About Me</h2>
+          </div>
+          <div class="content">
+            <div class="textBox">
+              <p>
+                Hi, I'm Ryan, a self-taught full-stack web developer with over 2
+                years of experience. I'm passionate about building beautiful and
+                user-friendly web applications. I have a strong understanding of
+                HTML, CSS, JavaScript, React, PHP, and Node.js. I'm also
+                familiar with other web development technologies, such as MySQL,
+                PostgreSQL, and MongoDB. <br /><br />
+                I'm always looking for new challenges and opportunities to learn
+                and grow. I'm also interested in working on projects that make a
+                positive impact on the world. If you have a web development
+                project that you're passionate about, I'd love to hear from you.
+                I'm confident that I can help you bring your vision to life.
+              </p>
+            </div>
+            <div class="imgBx">
+              <img src="img/bg1.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+
+        <!-- service -->
+        <section class="services adjust" id="services">
+          <div class="title">
+            <h2>Services</h2>
+            <p>Elevate your business with my wide-ranging digital solutions.</p>
+          </div>
+          <div class="content">
+            <div class="serviceBox">
+              <img src="img/web-design.png" />
+              <h2>Web Design</h2>
+              <p>
+                Create captivating visual designs for websites and web
+                applications that leave a lasting impression..
+              </p>
+            </div>
+            <div class="serviceBox">
+              <img src="img/coding.png" />
+              <h2>Web Developmnent</h2>
+              <p>
+                Craft and maintain websites from the ground up, including both
+                the front-end and back-end, to ensure seamless functionality.
+              </p>
+            </div>
+            <div class="serviceBox">
+              <img src="img/seo.png" />
+              <h2>SEO</h2>
+              <p>
+                Enhance your website's visibility with Search Engine
+                Optimization (SEO) to propel it to the top of search engine
+                results pages (SERPs).
+              </p>
+            </div>
+            <div class="serviceBox">
+              <img src="img/database-storage.png" />
+              <h2>Database development</h2>
+              <p>
+                Architect and deploy databases to efficiently store and manage
+                data while ensuring security and performance.
+              </p>
+            </div>
+            <div class="serviceBox">
+              <img src="img/api.png" />
+              <h2>API development</h2>
+              <p>
+                Create powerful APIs that facilitate seamless communication
+                between diverse applications, enhancing interoperability.
+              </p>
+            </div>
+            <div class="serviceBox">
+              <img src="img/testing.png" />
+              <h2>Testing</h2>
+              <p>
+                Rigorously assess websites and web applications to guarantee
+                flawless performance and exceptional user experiences.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <secttion class="project adjust" id="project">
+          <div class="title">
+            <h2>Recent Work</h2>
+            <p>
+              Explore my latest projects and see how we've helped clients
+              achieve their goals.
+            </p>
+          </div>
+          <div class="content">
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img/img2.jpg" alt="" />
+              </div>
+              <div class="textBx">
+                <h3>Project 01</h3>
+                <h4>NotesApp</h4>
+                <a href="https://github.com/ryanf27/notes-app-MERN"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img/img3.jpg" alt="" />
+              </div>
+              <div class="textBx">
+                <h3>Project 02</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img/img4.jpg" alt="" />
+              </div>
+              <div class="textBx">
+                <h3>Project 03</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img/img5.jpg" alt="" />
+              </div>
+              <div class="textBx">
+                <h3>Project 04</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img/img6.jpg" alt="" />
+              </div>
+              <div class="textBx">
+                <h3>Project 05</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img/img7.jpg" alt="" />
+              </div>
+              <div class="textBx">
+                <h3>Project 06</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img/img8.jpg" alt="" />
+              </div>
+              <div class="textBx">
+                <h3>Project 07</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img/img9.jpg" alt="" />
+              </div>
+              <div class="textBx">
+                <h3>Project 08</h3>
+              </div>
+            </div>
+            <div class="workBx">
+              <div class="imgBx">
+                <img src="img/img10.jpg" alt="" />
+              </div>
+              <div class="textBx">
+                <h3>Project 09</h3>
+              </div>
+            </div>
+          </div>
+        </secttion>
+
+        <!-- Contact -->
+        <section class="contact adjust" id="contact">
+          <div class="title">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me for inquiries or just to say hi.</p>
+          </div>
+          <div class="contact-info">
+            <div class="email">
+              <i class="fas fa-envelope"></i>ryanfebry0227@gmail.com
+            </div>
+            <div class="phone"><i class="fas fa-phone"></i>+6282277630613</div>
+            <div class="address">
+              <i class="fas fa-map-marker-alt"></i>Medan, Indonesia
+            </div>
+          </div>
+          <ul class="social-media">
+            <li>
+              <a href="https://github.com/ryanf27" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ryanfbry" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ryan-febry/" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ryanfebry02/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Copyright Text -->
+        <div class="copyright">
+          <p>&copy; Ryan Febry All Rights Reserved | 2023</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let toggle = document.querySelector(".toggle");
+      let topbar = document.querySelector(".topbar");
+      let navigation = document.querySelector(".navigation");
+      let main = document.querySelector(".main");
+      toggle.onclick = function () {
+        toggle.classList.toggle("active");
+        topbar.classList.toggle("active");
+        navigation.classList.toggle("active");
+        main.classList.toggle("active");
+      };
+
+      // menu active class issue for mobile device
+      function toggleMenu() {
+        let navigation = document.querySelector(".navigation");
+        let main = document.querySelector(".main");
+        navigation.classList.remove("active");
+        main.classList.remove("active");
+      }
+    </script>
+  </body>
+</html>
