@@ -338,6 +338,11 @@ section {
   color: var(--primary-color);
   font-weight: 500;
   letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+
+.project .content .workBx .textBx a:hover {
+  text-decoration: underline;
 }
 
 .project .content .workBx:hover .textBx {
@@ -347,6 +352,7 @@ section {
 .project .content .workBx .textBx h3 {
   color: var(--primary-color);
   font-size: 1em;
+  margin-bottom: 10px;
 }
 
 /* contact */
