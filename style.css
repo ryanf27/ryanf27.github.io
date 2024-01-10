@@ -541,6 +541,10 @@ section {
 }
 
 @media (max-width: 767px) {
+  .banner .imgBx {
+    margin-bottom: 100px;
+  }
+
   .about .content .imgBx img {
     max-width: 280px;
   }
